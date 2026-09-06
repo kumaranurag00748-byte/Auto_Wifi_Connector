@@ -25,7 +25,7 @@ pip install selenium
 ## ⚙️ Setup & Configuration
 
 ### 1. Configure the Python Script
-Open `wifi_login.py` and update the credentials section with your IIITU roll number and password:
+Open `wifi-login.py` and update the credentials section with your IIITU roll number and password:
 ```python
 
 SOPHOS_URL = "YOUR_SOPHOS_URL"  
@@ -55,7 +55,7 @@ WshShell.Run "pythonw.exe ""C:\Path\To\Your\wifi_login.py""", 0, False
 
 ## 🛠️ Troubleshooting
 
-You can monitor the script's activity by opening the `wifi_login_history.log` file generated in the same directory as the script.
+You can monitor the script's activity by opening the `wifi-login_history.log` file generated in the same directory as the script.
 
 | Log Message | Meaning / Fix |
 | :--- | :--- |
