@@ -2,7 +2,7 @@
 
 A lightweight, background Python automation script designed to handle the 30-minute Sophos captive portal timeout at the Indian Institute of Information Technology (IIIT) Una. 
 
-Instead of relying on HTTP requests (which Sophos intercepts), this script uses native ICMP pings to accurately detect internet drops. When the portal disconnects you, the script launches a headless, completely invisible Edge browser to log you back in—without interrupting your work or popping up any black command windows.
+Instead of relying on HTTP requests (which Sophos intercepts), this script uses native ICMP pings to accurately detect internet drops. When the portal disconnects you, the script launches a headless, completely invisible Edge browser to log you back in-without interrupting your work or popping up any black command windows.
 
 ## ✨ Features
 * **100% Invisible:** Runs entirely in the background using a VBScript wrapper. No sudden terminal popups.
